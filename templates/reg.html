@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BLOOD BANK</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: bisque;">+
+    <center><h1>BLOOD DONAR PAGE</h1></center>
+    <br><br>
+    <form action="/submit" method="post">
+<div class="container ">
+<div class="row">
+<div class="col-6">
+
+         <label for="birthdate">Date:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+                <label for="first_name">College Name:</label>
+        <input type="text" id="first_name" name="collegename"><br><br>
+
+        <label for="clg">College id:</label>
+        <input type="text" id="first_name" name="collegeid"><br><br>
+
+        <label for="cla">College Area:</label>
+        <input type="text" id="first_name" name="collegearea"><br><br>
+
+
+
+        <label for="password">Registration number:</label>
+        <input type="text" id="password" name="password"><br><br>
+
+        <label for="first_name">Name:</label>
+        <input type="text" id="first_name" name="name"><br><br>
+
+        <label for="first_name">Branch:</label>
+        <input type="text" id="first_name" name="branch"><br><br>
+</div>
+<div class="col-6">
+        <label for="last_name"> Age:</label>
+        <input type="text" id="last_name" name="age"><br><br>
+
+        <label for="email">Gender:</label>
+        <input type="radio"name="gender" > Male 
+        <input type="radio"name="gender"> Female
+        <input type="radio"name="gender"> Others<br><br><br>
+
+        <label for="password">College Contact number:</label>
+        <input  id="password" name="collegecontactnumber" type="text"><br><br>
+
+        <label for="confirm_password">Blood group:</label>
+        
+<input type="radio" name="bloodgroup" value="O+">O+<br>
+<input type="radio" name="bloodgroup" value="A+">A+<br>
+<input type="radio" name="bloodgroup" value="A-">A-<br>
+<input type="radio" name="bloodgroup" value="AB-">AB-<br>
+<input type="radio" name="bloodgroup" value="O-">O-<br>
+<input type="radio" name="bloodgroup" value="B+">B+<br>
+<input type="radio" name="bloodgroup" value="B-">B-<br>
+<input type="radio" name="bloodgroup" value="AB+">AB+<br>
+
+<br><br>
+
+        Donated in last six months?
+        <input type="radio"name="gender1" >yes
+        <input type="radio"name="gender1" >no<br><br>
+</div>
+</div>
+</div>
+
+        <center><input type="submit" value="Submit" class="btn btn-success border-radius"></center>
+    </form>
+</body>
+</html>
